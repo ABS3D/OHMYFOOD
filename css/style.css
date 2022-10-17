@@ -113,3 +113,34 @@ h1, h2 {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+/*logo*/
+
+.header{
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+.logo{
+    color: rgb(5, 5, 5);
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 0px;
+    font-family: "shrikhand";
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.logo-menus{
+    font-weight: bolder;
+    font-family: "shrikhand";
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 2rem;
+}
