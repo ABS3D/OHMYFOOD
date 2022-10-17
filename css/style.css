@@ -1,0 +1,115 @@
+/* général */
+@import url('https://fonts.googleapis.com/css2? family= Shrikhand & display=swap');
+@import url('https://fonts.googleapis.com/css2? famille= Roboto:wght@300;400;500 &family= Shrikhand & display=swap');
+
+
+body,html{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/*animation dela page d'acceuil*/
+
+.acceuil{
+    
+    width: 100%;
+    background: lightgray;
+    height: 100%;
+    line-height: 100%;
+    font-family: Shrikhand, sans-serif;
+    font-size: x-large;
+    vertical-align: middle;
+    text-align: center;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: desapear 3s ease-in-out forwards;
+}
+
+.loader{
+    color: #484848;
+    font-size: 2.5rem;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+
+@keyframes desapear {
+    0%{
+        opacity: 3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes flash {
+    0% {
+        color:#9356DC;
+        text-shadow: black;
+
+    }
+    90% {
+        color:#9356DC;
+        text-shadow: black;
+
+    }
+    100% {
+        color:#9356DC;
+        text-shadow: black;
+
+    }
+
+}
+.loader:nth-child(1){
+    animation-delay: 0.1s;
+}
+.loader:nth-child(2){
+    animation-delay: 0.2s;
+}
+.loader:nth-child(3){
+    animation-delay: 0.3s;
+}
+.loader:nth-child(4){
+    animation-delay: 0.4s;
+}
+.loader:nth-child(5){
+    animation-delay: 0.5s;
+}
+.loader:nth-child(6){
+    animation-delay: 0.6s;
+}
+.loader:nth-child(7){
+    animation-delay: 0.7s;
+}
+.loader:nth-child(8){
+    animation-delay: 0.8s;
+}
+.loader:nth-child(9){
+    animation-delay: 0.9s;
+}
+.loader:nth-child(10){
+    animation-delay: 1s;
+}
+
+.fade-out{
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+
+h1, h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
