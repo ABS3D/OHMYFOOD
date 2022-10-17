@@ -144,3 +144,27 @@ h1, h2 {
     font-style: italic;
     font-size: 2rem;
 }
+
+.arrow {
+    position: absolute;
+    left: 20px;
+}
+
+/*barre de recherche*/
+.ville {
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+
+input{
+    border: none;
+    background:#eaeaea;
+    font-size: 1rem;
+    padding: 20px 5px 20px 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 150px;
+}
