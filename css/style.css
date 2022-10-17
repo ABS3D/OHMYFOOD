@@ -589,3 +589,36 @@ ul {
     background-blend-mode: lighten;
     box-shadow: 4px 4px 6px #000;
 }
+/*footer*/
+
+
+.ft {
+    display: block;
+    background-color: #353535;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    padding: 25px;
+    color: white;
+}
+.logo-ft{
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 0px;
+    font-family: "shrikhand";
+    letter-spacing: 1px;
+    font-style: italic;
+    width: 100%;
+
+}
+.fth2 {
+    font-family:"shrikhand","sans-serif" ;
+    font-weight:500;
+    padding: 1rem 0;
+}
+.ftp {
+    padding: 0,2rem;
+    text-decoration: none;
+    color: white;
+}
