@@ -15,10 +15,9 @@ body{
     width: 100%;
 }
 
-/*animation dela page d'acceuil*/
 
 .acceuil{
-    
+    /*background: -webkit-linear-gradient(#FFFFFF, #99E2D0, #FF79DA, #9356DC);*/
     width: 100%;
     background: lightgray;
     height: 100%;
@@ -36,6 +35,7 @@ body{
     align-items: center;
     justify-content: center;
     animation: desapear 3s ease-in-out forwards;
+    /*transform-origin: top;*/
 }
 
 .loader{
@@ -145,11 +145,22 @@ h1, h2 {
     font-size: 2rem;
 }
 
+.resto-main{
+    background-color: #f6f6f6;
+}
+
+.resto-tittle{
+    font-weight: bolder;
+    font-family: "shrikhand";
+    letter-spacing: 1px;
+    font-style: italic;
+}
 .logo_arrow{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 .arrow {
     position: absolute;
     left: 20px;
@@ -158,13 +169,16 @@ a {
     text-decoration: none;
     color: black;
 }
-/*barre de recherche*/
 .ville {
     background: #eaeaea;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+
+.loca {
+    font-size: 1.5rem;
 }
 
 input{
@@ -176,8 +190,6 @@ input{
     text-align: center;
     width: 150px;
 }
-
-/* bouton explorer */
 
 .explorer {
     background: #f6f6f6;
@@ -194,6 +206,7 @@ input{
     font-size: 1rem;
     
 }
+/* bouton explorer */
 .explorer button {
     background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     border: 1px solid transparent;
@@ -212,7 +225,6 @@ input{
     background-blend-mode: lighten;
     box-shadow: 4px 4px 6px #000;
 }
-
 /* fonctionnement */
 .operation{
     margin-bottom: 50px;
@@ -263,19 +275,10 @@ ul {
 .steps-icon{
     padding: 1rem;
 }
-
-/*main-container*/
-.resto-main{
-    background-color: #f6f6f6;
-}
-
 .container{
     background: #f2f2f2;
     display: flex;
     flex-direction: column;
-}
-.titre_resto{
-    margin: 20px;
 }
 
 .menus_resto{
@@ -286,7 +289,6 @@ ul {
     justify-content: space-evenly;
 
 }
-
 .resto{
     border-radius: 25px;
     box-shadow: 4px 4px 6px #aaa;
@@ -298,6 +300,14 @@ ul {
     display: flex;
     flex-direction:column;
     width: 100%;
+}
+
+.resto_tittle h2{
+    text-transform: capitalize;
+}
+
+.menus_resto > .resto:nth-child(2) .resto_img {
+    height: 70%;
 }
 .resto_img{
     border-top-left-radius: 25px;
@@ -315,6 +325,10 @@ ul {
     right: 1%;
     top: 5%;
 
+}
+
+.titre_resto{
+    margin: 20px;
 }
 .resto_footer{
     padding: 1rem;
@@ -359,24 +373,47 @@ ul {
 .resto_footer:hover .resto_like_fas{
     opacity: 1;
 }
-.menus_heart{
-    cursor: pointer;
-    color: black;
-    
+/*footer*/
+
+
+.ft {
+    display: block;
+    background-color: #353535;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    padding: 25px;
+    color: white;
 }
-.menus_heart :hover{
-    animation: fill 0.3s ease-in-out;
-    display: inline-block;
-    opacity: 1;
-    background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
+.logo-ft{
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    margin-bottom: 0px;
+    font-family: "shrikhand";
+    letter-spacing: 1px;
+    font-style: italic;
+    width: 100%;
+
+}
+.fth2 {
+    font-family:"shrikhand","sans-serif" ;
+    font-weight:500;
+    padding: 1rem 0;
+}
+.ftp {
+    padding: 0,2rem;
+    text-decoration: none;
+    color: white;
 }
 
-/*menus-pages*/
 
+/*menus*/
+
+.header_arrow{
+    position: absolute;
+    left: 20px;
+}
 .banner img{
     object-fit: cover;
     width: 100%;
@@ -388,9 +425,7 @@ ul {
     align-items: center;
     padding: 10px;
 }
-.resto_tittle h2{
-    text-transform: capitalize;
-}
+
 .menu{
     background-color: #f6f6f6;
     border-top-left-radius: 25px;
@@ -415,6 +450,7 @@ ul {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
+
 .menus_category{ 
     background-color: #fff;
     border-radius: 15px;
@@ -589,39 +625,6 @@ ul {
     background-blend-mode: lighten;
     box-shadow: 4px 4px 6px #000;
 }
-/*footer*/
-
-
-.ft {
-    display: block;
-    background-color: #353535;
-    margin: 0;
-    border: 0;
-    font-size: 100%;
-    padding: 25px;
-    color: white;
-}
-.logo-ft{
-    color: white;
-    font-weight: bolder;
-    margin: 0;
-    margin-bottom: 0px;
-    font-family: "shrikhand";
-    letter-spacing: 1px;
-    font-style: italic;
-    width: 100%;
-
-}
-.fth2 {
-    font-family:"shrikhand","sans-serif" ;
-    font-weight:500;
-    padding: 1rem 0;
-}
-.ftp {
-    padding: 0,2rem;
-    text-decoration: none;
-    color: white;
-}
 
 /* MEDIA QUERY */
 
@@ -697,6 +700,27 @@ ul {
       }
   }
 
+/* tABLETTE 
+@media screen and (max-width: 900px){
+
+    .menus_category{
+        width: 50%;
+      }
+    .commandBtn{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .menus_category{
+        width: 50%;
+      }
+    .commandBtn{
+        width: 25%;
+    }
+
+}*/
 @media screen and (min-width: 768px) {
     .number {
         right: 0;
