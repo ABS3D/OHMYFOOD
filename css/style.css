@@ -700,27 +700,8 @@ ul {
       }
   }
 
-/* tABLETTE 
-@media screen and (max-width: 900px){
+/* tABLETTE*/
 
-    .menus_category{
-        width: 50%;
-      }
-    .commandBtn{
-        width: 25%;
-    }
-
-}
-
-@media screen and (max-width: 900px){
-    .menus_category{
-        width: 50%;
-      }
-    .commandBtn{
-        width: 25%;
-    }
-
-}*/
 @media screen and (min-width: 768px) {
     .number {
         right: 0;
