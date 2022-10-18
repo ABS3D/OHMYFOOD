@@ -17,9 +17,8 @@ body{
 
 
 .acceuil{
-    /*background: -webkit-linear-gradient(#FFFFFF, #99E2D0, #FF79DA, #9356DC);*/
     width: 100%;
-    background: lightgray;
+    background: rgb(206, 190, 223);
     height: 100%;
     line-height: 100%;
     font-family: Shrikhand, sans-serif;
@@ -34,16 +33,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: desapear 3s ease-in-out forwards;
-    /*transform-origin: top;*/
+    animation: desapear 3s ease-in-out 1s forwards;
 }
 
 .loader{
-    color: #484848;
+    color: rgb(82, 161, 188);
     font-size: 2.5rem;
     letter-spacing: 15px;
     margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
+    animation: flash 2s linear infinite;
 }
 
 @keyframes desapear {
