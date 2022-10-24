@@ -56,17 +56,14 @@ body{
 @keyframes flash {
     0% {
         color:#9356DC;
-        text-shadow: black;
 
     }
     90% {
         color:#9356DC;
-        text-shadow: black;
 
     }
     100% {
         color:#9356DC;
-        text-shadow: black;
 
     }
 
@@ -340,7 +337,7 @@ ul {
 }
 .resto_nom{
     text-decoration: none;
-    margin-bottom: 0,25rem;
+    margin-bottom: 0.25rem;
     text-transform: capitalize;
 }
 .point_resto{
@@ -400,7 +397,7 @@ ul {
     padding: 1rem 0;
 }
 .ftp {
-    padding: 0,2rem;
+    padding: 0.2rem;
     text-decoration: none;
     color: white;
 }
