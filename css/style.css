@@ -538,7 +538,6 @@ ul {
     place-items: center;
     display:grid;
     background: white;
-    aspect-ratio: 1;
     width: 2rem;
     border-radius: 1rem;
     color: #99E2D0;
